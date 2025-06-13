@@ -118,3 +118,68 @@
     border-radius: 10px;
     
 }
+
+.third-section{;
+    background-color: #e5e7eb;
+    padding: 50px;
+
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+
+    height: 300px;
+    gap: 30px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+
+    width: 700px;
+}
+
+.forth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 300px;
+}
+
+.container{
+    display: flex;
+
+    background-color: #3882f6;
+    height: 150px;
+    width: 1000px;
+    border-radius: 10px;
+
+    color: white;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .signupbutton{
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 30px;
+}
+
+.footer{
+    height: 100px;
+    background-color: #1f2937;
+    color: white;
+    font-size: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
